@@ -3,11 +3,12 @@
 This is a Eclipse project that was worked on let me know how you want these files displayed
 here is the raw text incase you have trouble opening these files
 
+
+
+
 package main;
 import java.util.Scanner;
-
 public class Converter {
-
 		  public void display_menu() {
 		    System.out.println ( 
 		    		"Please select an option:\r\n"
