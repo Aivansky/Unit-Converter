@@ -1,5 +1,7 @@
 package main;
 import java.util.Scanner;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class Converter {
 
@@ -10,6 +12,16 @@ public class Converter {
 		    		+ "2.Distance Conversions\r\n"
 		    		+ "3. Quit" );
 		  }
+
+	 @Test
+    public void testConcatenate() {
+        MyUnit myUnit = new MyUnit();
+
+        String result = myUnit.concatenate("one", "two");
+
+        assertEquals("onetwo", result);
+
+    }
 		  
 		  public Converter() {
 		    Scanner scan = new Scanner ( System.in );
